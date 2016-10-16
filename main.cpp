@@ -9,6 +9,18 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
+    if (argc != 2)
+    {
+        cout << "Błędny start programu" << endl;
+        cout << "Właściwe wywołanie programu to ./main n, " << endl;
+
+        cout << "Gdzie n - to ilość elementów grafu" << endl;
+
+        exit(123);
+
+    }
+    cout << argc;
+
     char NextOperation;
     NextOperation = 'T';
 
@@ -69,8 +81,6 @@ int main(int argc, char** argv) {
 
 
         }
-
-        cout << wybor << endl;
 
         cout << "Czy wkonać następną operację? T/N: ";
         cin >> NextOperation;
