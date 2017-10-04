@@ -1,5 +1,4 @@
 # GraphAnalysis
-/*
  * Matematyka dyskretna
  * Program zaliczeniowy
  * Trzy cechy projektu programu:
@@ -15,4 +14,3 @@
  *      b) Czy graf jest dwudzielny lub trójdzielny
  *      c) Czy graf zawiera drzewa, jeśli tak to program ma je wymienić
  *      d) Końcowym efektem działania programu ma być wygenerowanie albo grafu dualnego albo grafu pełnego wyznaczonego przez twórcę programu
- */
